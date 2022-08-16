@@ -1,0 +1,9 @@
+LIBRARY serial
+EXPORTS
+_CreateComm@12=CreateComm
+_SendCommand@12=SendCommand
+_ReadCommand@12=ReadCommand
+_SRCommand@24=SRCommand
+_ModbusCalcCRC@8=ModbusCalcCRC
+_CloseComm@4=CloseComm
+_GetAvailableCom@4=GetAvailableCom
